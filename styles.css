@@ -1,46 +1,43 @@
-/* Your CSS Code here. */
-body{
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f9f9f9;
-	color: #333;
-}
-header,nav,section,aside,footer{
-	padding:20px;
-	margin: 10px auto;
-	max-width: 900px;
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-header{
-	text-align: center;
-	font-size: 2em;
-	font-weight: bold;
-	color: #d32f2f;
-}
-nav {
-	text-align: center;
-}
-nav a{
-	margin: 0 15px;
-	text-decoration: none;
-	color: #1976d2;
-	font-weight: bold;
-}
-nav a: hover{
-	text-decoration: underline;
-}
-
-section h2{
-	color: #1976d2;
-}
-aside{
-	background-color: #e3f2fd;
-}
-footer{
-	text-align: center;
-	font-style: italic;
-}
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, nav, summary, section, aside, footer {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1976d2;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section h2, summary h2 {
+            color: #1976d2;
+        }
+        aside {
+            background-color: #e3f2fd;
+        }
+        footer {
+            text-align: center;
+            font-style: italic;
+        }
